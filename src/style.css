@@ -1,0 +1,11 @@
+:root { font-family: Arial, Helvetica, sans-serif; }
+body { background: #f6f8fc; color: #17243a; }
+html { scroll-behavior: smooth; scroll-padding-top: 85px; }
+.hero { color: white; background: linear-gradient(120deg, #244ed8, #5745bb); }
+.hero-text { max-width: 610px; color: #e8eaff; }
+.section-label { letter-spacing: 2px; font-size: 0.75rem; font-weight: 800; color: #3159dc; }
+.service-card { border: 1px solid #e7eaf3; border-radius: 16px; transition: transform .2s, box-shadow .2s; }
+.service-card:hover { transform: translateY(-5px); box-shadow: 0 12px 25px #132c5520 !important; }
+.service-icon { display: grid; place-items: center; font-size: 2rem; width: 65px; height: 65px; background: #edf1ff; border-radius: 16px; }
+.demo-section { background: #eaf0ff; border: 1px solid #dce4ff; }
+.form-control:focus { border-color: #657ce8; box-shadow: 0 0 0 .2rem #4966ec21; }
